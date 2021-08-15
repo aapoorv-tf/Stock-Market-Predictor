@@ -9,7 +9,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.svm import SVR
 from sklearn.model_selection import train_test_split
 
-qd.ApiConfig.api_key = "n1J5e7d5h3pDv6Jap2DF"
+qd.ApiConfig.api_key = API_KEY
 df = qd.get('WIKI/GOOGL', start_date=dt.date(2013, 1, 1))
 
 df = pd.DataFrame(df, columns=['Adj. Close'])
